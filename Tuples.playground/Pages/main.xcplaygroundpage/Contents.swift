@@ -16,7 +16,7 @@
  */
 // write your code here
 
-
+var person:(name: String, age: Int) = (name:"Othman", age:23)
 
 
 
@@ -27,7 +27,7 @@
  ### 2. Print out "<Name> is <Age> years old" using the tuple you created in Question 1.
  */
 // write your code here
-
+print(person.name,"is", person.age,"years old")
 
 
 
@@ -40,7 +40,7 @@
  */
 // write your code here
 
-
+person.age+=1
 
 
 
@@ -51,7 +51,7 @@
  ### 4. Print out "Happy <Age> birthday, <Name>!" using the `person` variable.
  */
 // write your code here
-
+print("Happy",person.age,"birthday, \(person.name)!")
 
 
 
@@ -63,7 +63,7 @@
  ### 5. Create another person variable called `someone` using _named_ fields for the name and age.
  */
 // write your code here
-
+var someone = (name:"Tony",age:33)
 
 
 
@@ -75,7 +75,7 @@
  ### 6. Print out "<Name> is <Age> years old" for the `someone` variable you created in Question 5.
  */
 // write your code here
-
+print(someone.name,"is",someone.age,"years old")
 
 
 
@@ -86,7 +86,7 @@
  ### 7. It is `someone`'s birthday! Increment `someone`'s age by one year.
  */
 // write your code here
-
+someone.age += 1
 
 
 
@@ -97,7 +97,7 @@
  ### 8. Print out "Happy <Age> birthday, <Name>!" using the `someone` variable.
  */
 // write your code here
-
+print("Happy \(someone.age) birthday, \(someone.name)!")
 
 
 
@@ -110,7 +110,7 @@
  */
 // write your code here
 
-
+let human:(name:String,age:Int) = (name:"Dove",age:18)
 
 
 
@@ -122,8 +122,8 @@
  */
 
 
-
-
+//human.age = 20
+// not possible to change the number
 
 
 
